@@ -1,0 +1,20 @@
+# Local WhatsApp data (chat history + session keys) - never commit
+store/
+**/store/
+*.db
+*.db-*
+bridge.log
+bridge.log.old
+*.log
+
+# Built / downloaded bridge binary (published as a GitHub Release asset instead)
+wabridge.exe
+wabridge
+
+# Your own chat allowlist (contains phone numbers); the example file is tracked
+whatsapp-mcp-server/allowed_chats.txt
+
+# Python
+.venv/
+__pycache__/
+*.stackdump

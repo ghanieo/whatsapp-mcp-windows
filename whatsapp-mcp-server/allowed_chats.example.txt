@@ -1,0 +1,10 @@
+# Chats the WhatsApp MCP may read from / send to. One JID per line; text after "#" is ignored.
+# Empty file (or only comments) = Claude cannot touch any chat.
+# A line with only  *  = every chat is allowed.
+# Find JIDs with 3-cari-chat.bat. Personal chats often appear twice
+# (old ...@s.whatsapp.net and new ...@lid): add both.
+#
+# Examples:
+# 6281234567890@s.whatsapp.net   # Budi (phone JID)
+# 123456789012345@lid            # Budi (LID JID)
+# 120363000000000000@g.us        # a group
